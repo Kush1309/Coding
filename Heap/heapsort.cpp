@@ -35,8 +35,8 @@ void print(int arr[],int n){
     }
 }
 int main(){
-    int n =10;
-    int arr[n]={10,3,8,9,5,13,18,14,11,70};
+    int n =11;
+    int arr[n]={14,15,12,22,17,20,18,24,23,30,13};
     buildMaxHeap(arr,n);
     sortarray(arr,n);
     print(arr,n);
