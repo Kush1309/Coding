@@ -38,7 +38,7 @@ class maxHeap{
 };
 int main(){
     maxHeap h1(6);
-     h1.insert(45);
+    h1.insert(45);
     h1.insert(4);
     h1.insert(56);
     h1.insert(42);
